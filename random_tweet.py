@@ -50,6 +50,6 @@ time.sleep(5)
 
 try:
     api = tweepy.API(auth)  
-    api.update_status('Luck number of now is %d ' % lucky_num, 2 )
+    api.update_status('Lucky number is %d ' % lucky_num, 2 )
 except:
     pass
